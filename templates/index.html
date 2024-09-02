@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bus Management</title>
+        <link href="{{ url_for('static', filename='output.css') }}" rel="stylesheet">
+        <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    </head>
+    
+<body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-blue-600 p-4 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-white text-2xl font-bold">BusManagement</a>
+            <ul class="flex space-x-4">
+                <li><a href="index" class="text-white hover:bg-blue-700 px-3 py-2 rounded">Home</a></li>
+                <li><a href="/about" class="text-white hover:bg-blue-700 px-3 py-2 rounded">About</a></li>
+                <li><a href="/service" class="text-white hover:bg-blue-700 px-3 py-2 rounded">Services</a></li>
+                <li><a href="contect" class="text-white hover:bg-blue-700 px-3 py-2 rounded">Contact</a></li>
+                <!-- <li><a href="/signin" class="text-white hover:bg-blue-700 px-3 py-2 rounded">Sign In</a></li> -->
+                <li><a href="/login" class="text-white hover:bg-blue-700 px-3 py-2 rounded">Login</a></li>
+                <li><a href="/logout" class="text-white hover:bg-blue-700 px-3 py-2 rounded">Logout</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gray-800 text-white">
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://via.placeholder.com/1500x600');">
+            <div class="absolute inset-0 bg-black opacity-50"></div>
+        </div>
+        <div class="relative container mx-auto px-6 py-20 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Manage Your Bus Operations Efficiently</h1>
+            <p class="text-lg md:text-xl mb-8">Our Bus Management System helps you to keep track of your fleet, routes, and schedules effortlessly.</p>
+            <a href="#" class="bg-blue-500 text-white px-6 py-3 rounded hover:bg-blue-600">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="p-4">
+        <h2 class="text-xl">Welcome to the Bus Management System</h2>
+        <!-- Add your content here -->
+    </main>
+</body>
+</html>

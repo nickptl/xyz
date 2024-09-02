@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon" />
+    <title>Delhi Bus Management System</title>
+    <!-- Link to Tailwind CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='output.css') }}"> <!-- Adjust path as necessary -->
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+    <header class="bg-blue-600 text-white p-6 shadow-md">
+        <h1 class="text-4xl font-bold">Manage Your Bus Operations Efficiently</h1>
+        <nav class="mt-4 space-x-4">
+            <a href="#statistics" class="text-white hover:text-yellow-300">Key Statistics</a>
+            <a href="#infrastructure" class="text-white hover:text-yellow-300">Infrastructure</a>
+            <a href="#technology" class="text-white hover:text-yellow-300">Information Technology</a>
+            <a href="#future" class="text-white hover:text-yellow-300">Future Developments</a>
+            <a href="#contact" class="text-white hover:text-yellow-300">Contact</a>
+            <a href="#guides" class="text-white hover:text-yellow-300">User Guides</a>
+        </nav>
+    </header>
+
+    <div class="container mx-auto p-6">
+        <!-- Key Statistics Section -->
+        <section id="statistics" class="section my-8 bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold mb-4">Key Statistics</h2>
+            <ul class="list-disc pl-5 space-y-2">
+                <li>Divisions: 4 (East, North, South, West)</li>
+                <li>Depots: 37</li>
+                <li>Bus Stations: Numerous across the city</li>
+                <li>Fleet Size: Over 3,900 buses</li>
+            </ul>
+        </section>
+
+        <!-- Infrastructure and Facilities Section -->
+        <section id="infrastructure" class="section my-8 bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold mb-4">Infrastructure and Facilities</h2>
+            <p class="mb-2">Depots and Workshops: 37 bus depots categorized into 4 regions. Each region is headed by a Regional Manager, and each depot is headed by a Depot Manager. Maintenance and repair facilities at various levels.</p>
+            <p class="mb-2">Tyre Retreading Plants: Facilities for tyre retreading to ensure safety and longevity of bus tyres.</p>
+            <p class="mb-2">Bus Body Building: Facilities for building and maintaining bus bodies.</p>
+            <p class="mb-2">Printing Press: For printing tickets, passes, and other necessary documents.</p>
+        </section>
+
+        <!-- Information Technology and E-Governance Section -->
+        <section id="technology" class="section my-8 bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold mb-4">Information Technology and E-Governance</h2>
+            <ul class="list-disc pl-5 space-y-2">
+                <li>GPS/PIS Based Bus Tracking: First in the country to introduce GPS/PIS based Bus Tracking & Passenger Information System for monitoring buses.</li>
+                <li>Electronic Ticketing Machines: Over 14,000 electronic ticketing machines introduced in all schedules.</li>
+                <li>Online Services: Launched its own website for online time table, passenger reservation, and e-ticketing. Integrated Depot Management System implemented in all depots. Computerized Inventory Management System for central and divisional stores.</li>
+                <li>Public Entertainment System: Providing entertainment options for passengers.</li>
+                <li>BSNL OFC MPLS Connectivity: Ensuring robust communication infrastructure.</li>
+                <li>Computerized Pass Issue System: For daily and student passes.</li>
+                <li>Statistical Analysis: Carried out through computerized systems for better decision-making.</li>
+                <li>E-Tendering Process: Established for procurement and other processes.</li>
+                <li>Automatic Driver Testing System: Implementing systems for driving skill tests.</li>
+                <li>Online Recruitment: For staff across all categories.</li>
+                <li>Video Conference System: Implemented between the central office and all division offices.</li>
+            </ul>
+        </section>
+
+        <!-- Future Developments Section -->
+        <section id="future" class="section my-8 bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold mb-4">Future Developments</h2>
+            <p class="mb-2">Bus Management System (BMS): Introduction of a Bus Management System to collate real-time data for multiple purposes including monitoring driver behavior, route rationalization using GPS data, and more efficient charging of electric buses.</p>
+            <p>Dedicated Dashboard: A system to provide real-time information on bus schedules, availability, and operational data.</p>
+        </section>
+
+        <!-- Contact Information Section -->
+        <section id="contact" class="section my-8 bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold mb-4">Contact Information</h2>
+            <p class="mb-2">Customer Support: Available for passenger queries and support.</p>
+            <p>Emergency Contacts: Important contact numbers for emergencies related to bus services.</p>
+        </section>
+
+        <!-- User Guides & FAQs Section -->
+        <section id="guides" class="section my-8 bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold mb-4">User Guides & FAQs</h2>
+            <p class="mb-2">How-To Guides: Instructions on using the web app, booking tickets, and tracking buses.</p>
+            <p>Frequently Asked Questions: Answers to common questions about the bus services and the web app.</p>
+        </section>
+    </div>
+
+    <footer class="bg-blue-600 text-white p-6 mt-8">
+        <p class="text-center">© 2024 Delhi Bus Management System. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
